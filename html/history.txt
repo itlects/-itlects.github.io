@@ -1,0 +1,20 @@
+
+template/register1.html
+ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_register_form
+
+template/register2.html
+ https://cafe.naver.com/ithutgan/8205
+ https://www.youtube.com/watch?v=CV4le8H1ha4
+ https://github.com/isranetoo/Login-Form-Dark-and-Light-Mode-CodersHub.git
+
+howto
+ phone hyphone(dash code) automatic: 
+ https://jong-bae.tistory.com/66
+
+ input pattern check regex :
+ https://homzzang.com/b/html-302
+ https://hayleyun.tistory.com/entry/HTML-input-pattern-정규식
+
+ email input onchange validate:
+ https://emaillistvalidation.com/blog/mastering-email-validation-in-javascript-with-onchange-event-a-comprehensive-guide/
+ 

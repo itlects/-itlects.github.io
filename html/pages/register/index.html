@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Login Dark/Light Form</title>
+
+    <style>
+        #login_check a{
+            text-decoration: none;
+            color: var(--color-dark-50);
+            font-size: 14px;
+        }
+        #login_link{
+            color: var(--color-dark-50);
+            font-size: 14px;
+            color: var(--color-purple-100)
+        }
+
+        #terms_check a{
+            text-decoration: none;
+        }
+        #terms_link{
+            color: var(--color-dark-50);
+            font-size: 14px;
+            color: var(--color-purple-100)
+        }
+        
+    </style>
+
+</head>
+<body>   
+    <main id="container">
+        <form id="login_form">
+            <!-- FORM HEADER -->
+            <div id="form_header">
+                <h1>Register</h1>
+                <i id="mode_icon" class="fa-solid fa-moon"></i>
+            </div>
+            <div>
+                <p>Create An Account</p>
+            </div>
+
+            
+            <!-- INPUTS -->
+            <div id="inputs">
+                <!-- NAME -->
+                <div class="input-box">
+                    <label for="fname">
+                        First Name
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="fname" name="fname" placeholder="" required autofocus>
+                        </div>
+                    </label>
+                </div>
+                <div class="input-box">
+                    <label for="lname">
+                        Last Name
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="lname" name="lname" placeholder="" required>
+                        </div>
+                    </label>
+                </div>
+                
+                <!-- Mobile phone -->
+                <div class="input-box">
+                    <label for="email">
+                        Mobile Number
+                        <div class="input-field">
+                            <i class="fa-solid fa-phone"></i>
+                            <input type="tel" id="phone" name="phone" placeholder="" required>
+                        </div>
+                    </label>
+                </div>
+
+                <!-- EMAIL -->
+                <div class="input-box">
+                    <label for="email">
+                        E-mail
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="" required>
+                        </div>
+                        <i>will be used as Login ID after register</i>
+                    </label>
+
+                </div>
+
+                
+                <div id="guid_para">
+                        Password will be sent to your email.
+                </div> 
+
+
+                <!-- see terms link -->
+                <div id="terms_check">
+                    <input type="checkbox" name="terms" id="terms">
+                    I read terms and conditions, and I agree to them.<br>
+                    <a href="#">    
+                        <span id="terms_link">See Terms and Conditions</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- LOGIN BUTTON -->
+            <button type="submit" id="login_button">
+                REGISTER
+            </button>
+            <!-- account register link -->
+            <div id="login_check">
+                <a href="../login/index.html">
+                    Already have an account? <span id="login_link">Sign in</span>
+                </a>
+            </div>
+            
+            <!-- account register link -->
+            <div id="new_register">
+                <a href="#">
+                    Register with SNS: 
+                </a>
+            </div>
+            <!-- SOCIAL MEDIA LINKS -->
+            <div id="social_media">
+                <!-- FACEBOOK -->
+                <a href="#">
+                    <img src="./img/facebook.png" alt="">
+                </a>
+
+                <!-- GOOGLE -->
+                <a href="#">
+                    <img src="./img/google.png" alt="Google logo">
+                </a>
+                
+                <!-- GITHUB -->
+                <a href="#">
+                    <img src="./img/twitter-c.png" alt="">
+                </a>
+            </div>
+
+        </form>
+
+
+    </main>
+
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
